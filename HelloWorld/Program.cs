@@ -18,7 +18,7 @@ namespace HelloWorld
 
             for (int i = 0; i < x.Count; i++)
             {
-                Console.WriteLine(x[i]);
+                Console.WriteLine(x[i].Length);
             }
 
             Console.WriteLine(x);

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9002A618-7DDF-4149-B586-51C7FAF8A3B2}</ProjectGuid>
+    <ProjectGuid>{7B507457-B091-4C01-B796-3BE0E454F127}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EvenNumbersSum</RootNamespace>
-    <AssemblyName>EvenNumbersSum</AssemblyName>
+    <RootNamespace>FiveLetters</RootNamespace>
+    <AssemblyName>FiveLetters</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EvenNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WordList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

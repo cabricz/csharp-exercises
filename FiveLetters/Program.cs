@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EvenNumbersSum
+namespace FiveLetters
 {
     class Program
     {
         static void Main(string[] args)
         {
-            List<int> numberList = EvenNumbers.GetRandomNumberList();
-            int evenNumbers = EvenNumbers.AddEvenNumbers(numberList);
+            List<string> wordList = WordList.GetWordList();
 
-            Console.WriteLine(evenNumbers);
+            Console.WriteLine(WordList.PrintWordList(wordList));
+            Console.WriteLine(WordList.PrintFiveLetterWords(wordList));
             Console.ReadLine();
         }
     }
