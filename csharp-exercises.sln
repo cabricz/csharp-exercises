@@ -34,6 +34,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumbersSum", "EvenNumbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveLetters", "FiveLetters\FiveLetters.csproj", "{7B507457-B091-4C01-B796-3BE0E454F127}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{994C129B-3B5F-47D8-AA6B-224C9BA52F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{48F77CB1-CD0F-4E94-9996-FD28024F7939}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +108,14 @@ Global
 		{7B507457-B091-4C01-B796-3BE0E454F127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B507457-B091-4C01-B796-3BE0E454F127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B507457-B091-4C01-B796-3BE0E454F127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994C129B-3B5F-47D8-AA6B-224C9BA52F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994C129B-3B5F-47D8-AA6B-224C9BA52F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994C129B-3B5F-47D8-AA6B-224C9BA52F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994C129B-3B5F-47D8-AA6B-224C9BA52F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F77CB1-CD0F-4E94-9996-FD28024F7939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F77CB1-CD0F-4E94-9996-FD28024F7939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F77CB1-CD0F-4E94-9996-FD28024F7939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F77CB1-CD0F-4E94-9996-FD28024F7939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
